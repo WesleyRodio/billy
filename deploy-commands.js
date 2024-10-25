@@ -8,6 +8,7 @@ const guildId = process.env.GUILD_ID;
 const token = process.env.TOKEN;
 
 const commands = [];
+const privateCommands = [];
 
 const foldersPath = path.join(__dirname, "commands");
 const commandFolders = fs.readdirSync(foldersPath);
@@ -23,7 +24,11 @@ for (const folder of commandFolders) {
     const command = require(filePath);
 
     if ("data" in command && "execute" in command) {
-      commands.push(command.data.toJSON());
+      if ("private" in command) {
+        privateCommands.push(command.data.toJSON());
+      } else {
+        commands.push(command.data.toJSON());
+      }
     } else {
       console.log(
         `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`
@@ -37,15 +42,28 @@ const rest = new REST().setToken(token);
 (async () => {
   try {
     console.log(
-      `Started refreshing ${commands.length} application (/) commands.`
+      `Started refreshing ${
+        commands.length + privateCommands.length
+      } application (/) commands.`
     );
 
-    const data = await rest.put(Routes.applicationCommands(clientId), {
-      body: commands,
-    });
-
+    const normalCommands = await rest.put(
+      Routes.applicationCommands(clientId),
+      {
+        body: commands,
+      }
+    );
+    
+    const devCommands = await rest.put(
+      Routes.applicationCommands(clientId, guildId),
+      {
+        body: privateCommands,
+      }
+    );
     console.log(
-      `Successfully refreshed ${data.length} application (/) commands.`
+      `Successfully refreshed ${
+        normalCommands.length + devCommands.length
+      } application (/) commands.`
     );
   } catch (err) {
     console.error(err);

@@ -8,6 +8,7 @@ const token = process.env.TOKEN;
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.commands = new Collection();
+client.cooldowns = new Collection();
 
 const foldersPath = path.join(__dirname, "commands");
 const commandFolders = fs.readdirSync(foldersPath);
@@ -33,37 +34,63 @@ for (const folder of commandFolders) {
   }
 }
 
-/* client.once(Events.ClientReady, (readyClient) => {
-  console.log(`\nReady! Logged in as ${readyClient.user.tag}`);
-}); */
-
 const eventsPath = path.join(__dirname, "events");
-const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith(".js"));
+const eventFiles = fs
+  .readdirSync(eventsPath)
+  .filter((file) => file.endsWith(".js"));
 
-for (const file of eventFiles) { 
+for (const file of eventFiles) {
   const filePath = path.join(eventsPath, file);
-  console.log(filePath);
-  
+  const event = require(filePath);
+
+  if (event.once) {
+    client.once(event.name, (...args) => event.execute(...args));
+  } else {
+    client.on(event.name, (...args) => event.execute(...args));
+  }
 }
-
-
-
-
 
 client.on(Events.InteractionCreate, async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
   const command = interaction.client.commands.get(interaction.commandName);
+  const { cooldowns } = interaction.client;
 
   if (!command) {
     console.error(`No command matching ${interaction.commandName} was found.`);
     return;
   }
 
+  if (!cooldowns.has(command.data.name)) {
+    cooldowns.set(command.data.name, new Collection());
+  }
+
+  const now = Date.now();
+  const timestamps = cooldowns.get(command.data.name);
+  const defaultCooldownDuration = 3;
+  const cooldownAmount = (command.cooldown ?? defaultCooldownDuration) * 1_000;
+
+  if (timestamps.has(interaction.user.id)) {
+    const expirationTime = timestamps.get(interaction.user.id) + cooldownAmount;
+
+    if (now < expirationTime) {
+      const expiredTimestamp = Math.round(expirationTime / 1_000);
+      console.log(expiredTimestamp);
+      
+      return interaction.reply({
+        content: `Please wait, you are on a cooldown for \`${command.data.name}\`. You can use it again <t:${expiredTimestamp}:R>.`,
+        ephemeral: true,
+      });
+    }
+  }
+
+  timestamps.set(interaction.user.id, now);
+  setTimeout(() => timestamps.delete(interaction.client.id), cooldownAmount);
+
   try {
     await command.execute(interaction);
   } catch (err) {
-    console.error(error);
+    console.error(err);
     if (interaction.replied || interaction.deferred) {
       await interaction.followUp({
         content: "There was an error while executing this command!",
@@ -79,4 +106,3 @@ client.on(Events.InteractionCreate, async (interaction) => {
 });
 
 client.login(token);
-
