@@ -1,6 +1,7 @@
 const { Events } = require("discord.js");
 
 module.exports = {
+  category: "utility",
   name: Events.ClientReady,
   once: true,
   execute(client) {
