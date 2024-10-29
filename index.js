@@ -5,7 +5,9 @@ const path = require("node:path");
 const { Client, Collection, Events, GatewayIntentBits } = require("discord.js");
 const token = process.env.TOKEN;
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildEmojisAndStickers],
+});
 
 client.commands = new Collection();
 client.cooldowns = new Collection();
@@ -104,5 +106,12 @@ client.on(Events.InteractionCreate, async (interaction) => {
     }
   }
 });
+/* 
+client.on(Events.InteractionCreate, (interaction) => {
+  if (!interaction.isButton()) return;
+
+  console.log(interaction.type);
+  
+}); */
 
 client.login(token);

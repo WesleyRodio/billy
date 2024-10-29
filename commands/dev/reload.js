@@ -53,7 +53,7 @@ module.exports = {
         console.log(`\n${stdout}`);
       });
       await interaction.reply(
-        `Command \`${newCommand.data.name}\` war realoaded`
+        `Command \`${newCommand.data.name}\` was realoaded`
       );
     } catch (err) {
       console.error(error);
