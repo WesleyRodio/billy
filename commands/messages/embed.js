@@ -81,8 +81,7 @@ module.exports = {
         iconURL: guildIconURL,
       });
 
-      console.log(`Resultado da embed: `, embed);
-      
+    console.log(`Resultado da embed: `, embed);
 
     await interaction.reply({ embeds: [embed] });
   },
