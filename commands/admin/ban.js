@@ -4,6 +4,7 @@ const {
   ButtonBuilder,
   ButtonStyle,
   ComponentType,
+  PermissionFlagsBits
 } = require("discord.js");
 
 module.exports = {
@@ -22,7 +23,8 @@ module.exports = {
         .setName("reason")
         .setDescription("Reason for ban.")
         .setRequired(true)
-    ),
+    )
+    .setDefaultMemberPermissions(PermissionFlagsBits.BanMembers),
   async execute(interaction) {
     const target = interaction.options.getUser("target");
     const reason = interaction.options.getString("reason");
@@ -69,7 +71,7 @@ module.exports = {
         interaction.reply("Ban canceled.");
       }
       console.log(interaction.customId);
-      
+
     });
   },
 };

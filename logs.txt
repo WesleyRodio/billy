@@ -1,0 +1,143 @@
+
+[02/05/2025 13:46:24 | 1746204384478 ms] - Ready! Logged in as Billy#9591
+
+[02/05/2025 13:47:53 | 1746204473800 ms] - Loaded command: ban
+[02/05/2025 13:47:53 | 1746204473804 ms] - Loaded command: unban
+[02/05/2025 13:47:53 | 1746204473809 ms] - Loaded command: reload
+[02/05/2025 13:47:53 | 1746204473812 ms] - Loaded command: embed
+[02/05/2025 13:47:53 | 1746204473814 ms] - Loaded command: invite
+[02/05/2025 13:47:53 | 1746204473816 ms] - Loaded command: nick
+[02/05/2025 13:47:53 | 1746204473823 ms] - Loaded command: nickme
+[02/05/2025 13:47:53 | 1746204473826 ms] - Loaded command: ping
+[02/05/2025 13:47:53 | 1746204473828 ms] - Loaded command: user
+[02/05/2025 13:47:54 | 1746204474875 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 13:48:04 | 1746204484845 ms] - Loaded command: ban
+[02/05/2025 13:48:04 | 1746204484854 ms] - Loaded command: unban
+[02/05/2025 13:48:04 | 1746204484857 ms] - Loaded command: reload
+[02/05/2025 13:48:04 | 1746204484860 ms] - Loaded command: embed
+[02/05/2025 13:48:04 | 1746204484864 ms] - Loaded command: invite
+[02/05/2025 13:48:04 | 1746204484867 ms] - Loaded command: nick
+[02/05/2025 13:48:04 | 1746204484869 ms] - Loaded command: nickme
+[02/05/2025 13:48:04 | 1746204484871 ms] - Loaded command: ping
+[02/05/2025 13:48:04 | 1746204484874 ms] - Loaded command: user
+[02/05/2025 13:48:06 | 1746204486001 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 13:59:12 | 1746205152402 ms] - Loaded command: ban
+[02/05/2025 13:59:12 | 1746205152408 ms] - Loaded command: unban
+[02/05/2025 13:59:12 | 1746205152414 ms] - Loaded command: reload
+[02/05/2025 13:59:12 | 1746205152417 ms] - Loaded command: embed
+[02/05/2025 13:59:12 | 1746205152420 ms] - Loaded command: invite
+[02/05/2025 13:59:12 | 1746205152424 ms] - Loaded command: nick
+[02/05/2025 13:59:12 | 1746205152426 ms] - Loaded command: nickme
+[02/05/2025 13:59:12 | 1746205152429 ms] - Loaded command: ping
+[02/05/2025 13:59:12 | 1746205152431 ms] - Loaded command: user
+[02/05/2025 13:59:13 | 1746205153302 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 13:59:47 | 1746205187000 ms] - Loaded command: ban
+[02/05/2025 13:59:47 | 1746205187004 ms] - Loaded command: unban
+[02/05/2025 13:59:47 | 1746205187007 ms] - Loaded command: reload
+[02/05/2025 13:59:47 | 1746205187010 ms] - Loaded command: embed
+[02/05/2025 13:59:47 | 1746205187013 ms] - Loaded command: invite
+[02/05/2025 13:59:47 | 1746205187017 ms] - Loaded command: nick
+[02/05/2025 13:59:47 | 1746205187020 ms] - Loaded command: nickme
+[02/05/2025 13:59:47 | 1746205187023 ms] - Loaded command: ping
+[02/05/2025 13:59:47 | 1746205187025 ms] - Loaded command: user
+[02/05/2025 13:59:48 | 1746205188274 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:01:54 | 1746205314006 ms] - Loaded command: ban
+[02/05/2025 14:01:54 | 1746205314012 ms] - Loaded command: unban
+[02/05/2025 14:01:54 | 1746205314018 ms] - Loaded command: reload
+[02/05/2025 14:01:54 | 1746205314022 ms] - Loaded command: embed
+[02/05/2025 14:01:54 | 1746205314025 ms] - Loaded command: invite
+[02/05/2025 14:01:54 | 1746205314030 ms] - Loaded command: nick
+[02/05/2025 14:01:54 | 1746205314034 ms] - Loaded command: nickme
+[02/05/2025 14:01:54 | 1746205314036 ms] - Loaded command: ping
+[02/05/2025 14:01:54 | 1746205314038 ms] - Loaded command: user
+[02/05/2025 14:01:54 | 1746205314872 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:02:01 | 1746205321014 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:02:01 | 1746205321560 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:02:39 | 1746205359823 ms] - Loaded command: ban
+[02/05/2025 14:02:39 | 1746205359828 ms] - Loaded command: unban
+[02/05/2025 14:02:39 | 1746205359832 ms] - Loaded command: reload
+[02/05/2025 14:02:39 | 1746205359835 ms] - Loaded command: embed
+[02/05/2025 14:02:39 | 1746205359837 ms] - Loaded command: invite
+[02/05/2025 14:02:39 | 1746205359839 ms] - Loaded command: nick
+[02/05/2025 14:02:39 | 1746205359842 ms] - Loaded command: nickme
+[02/05/2025 14:02:39 | 1746205359845 ms] - Loaded command: ping
+[02/05/2025 14:02:39 | 1746205359847 ms] - Loaded command: user
+[02/05/2025 14:02:40 | 1746205360764 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:08:57 | 1746205737858 ms] - Loaded command: ban
+[02/05/2025 14:08:57 | 1746205737865 ms] - Loaded command: unban
+[02/05/2025 14:08:57 | 1746205737868 ms] - Loaded command: reload
+[02/05/2025 14:08:57 | 1746205737870 ms] - Loaded command: embed
+[02/05/2025 14:08:57 | 1746205737872 ms] - Loaded command: invite
+[02/05/2025 14:08:57 | 1746205737876 ms] - Loaded command: nick
+[02/05/2025 14:08:57 | 1746205737879 ms] - Loaded command: nickme
+[02/05/2025 14:08:57 | 1746205737882 ms] - Loaded command: ping
+[02/05/2025 14:08:57 | 1746205737884 ms] - Loaded command: user
+[02/05/2025 14:08:58 | 1746205738989 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:09:17 | 1746205757200 ms] - Loaded command: ban
+[02/05/2025 14:09:17 | 1746205757205 ms] - Loaded command: unban
+[02/05/2025 14:09:17 | 1746205757208 ms] - Loaded command: reload
+[02/05/2025 14:09:17 | 1746205757210 ms] - Loaded command: embed
+[02/05/2025 14:09:17 | 1746205757213 ms] - Loaded command: invite
+[02/05/2025 14:09:17 | 1746205757216 ms] - Loaded command: nick
+[02/05/2025 14:09:17 | 1746205757218 ms] - Loaded command: nickme
+[02/05/2025 14:09:17 | 1746205757220 ms] - Loaded command: ping
+[02/05/2025 14:09:17 | 1746205757221 ms] - Loaded command: user
+[02/05/2025 14:09:18 | 1746205758013 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:10:01 | 1746205801147 ms] - Loaded command: ban
+[02/05/2025 14:10:01 | 1746205801152 ms] - Loaded command: unban
+[02/05/2025 14:10:01 | 1746205801155 ms] - Loaded command: reload
+[02/05/2025 14:10:01 | 1746205801157 ms] - Loaded command: embed
+[02/05/2025 14:10:01 | 1746205801159 ms] - Loaded command: invite
+[02/05/2025 14:10:01 | 1746205801163 ms] - Loaded command: nick
+[02/05/2025 14:10:01 | 1746205801167 ms] - Loaded command: nickme
+[02/05/2025 14:10:01 | 1746205801170 ms] - Loaded command: ping
+[02/05/2025 14:10:01 | 1746205801172 ms] - Loaded command: user
+[02/05/2025 14:10:02 | 1746205802055 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:10:47 | 1746205847989 ms] - Loaded command: ban
+[02/05/2025 14:10:47 | 1746205847993 ms] - Loaded command: unban
+[02/05/2025 14:10:47 | 1746205847997 ms] - Loaded command: reload
+[02/05/2025 14:10:48 | 1746205848000 ms] - Loaded command: embed
+[02/05/2025 14:10:48 | 1746205848003 ms] - Loaded command: invite
+[02/05/2025 14:10:48 | 1746205848005 ms] - Loaded command: nick
+[02/05/2025 14:10:48 | 1746205848007 ms] - Loaded command: nickme
+[02/05/2025 14:10:48 | 1746205848010 ms] - Loaded command: ping
+[02/05/2025 14:10:48 | 1746205848012 ms] - Loaded command: user
+[02/05/2025 14:10:48 | 1746205848930 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:14:00 | 1746206040378 ms] - Loaded command: ban
+[02/05/2025 14:14:00 | 1746206040382 ms] - Loaded command: unban
+[02/05/2025 14:14:00 | 1746206040386 ms] - Loaded command: reload
+[02/05/2025 14:14:00 | 1746206040388 ms] - Loaded command: embed
+[02/05/2025 14:14:00 | 1746206040390 ms] - Loaded command: invite
+[02/05/2025 14:14:00 | 1746206040393 ms] - Loaded command: nick
+[02/05/2025 14:14:00 | 1746206040395 ms] - Loaded command: nickme
+[02/05/2025 14:14:00 | 1746206040397 ms] - Loaded command: ping
+[02/05/2025 14:14:00 | 1746206040400 ms] - Loaded command: user
+[02/05/2025 14:14:01 | 1746206041455 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:15:14 | 1746206114743 ms] - Loaded command: ban
+[02/05/2025 14:15:14 | 1746206114748 ms] - Loaded command: unban
+[02/05/2025 14:15:14 | 1746206114751 ms] - Loaded command: reload
+[02/05/2025 14:15:14 | 1746206114755 ms] - Loaded command: embed
+[02/05/2025 14:15:14 | 1746206114758 ms] - Loaded command: invite
+[02/05/2025 14:15:14 | 1746206114761 ms] - Loaded command: nick
+[02/05/2025 14:15:14 | 1746206114764 ms] - Loaded command: nickme
+[02/05/2025 14:15:14 | 1746206114766 ms] - Loaded command: ping
+[02/05/2025 14:15:14 | 1746206114768 ms] - Loaded command: user
+[02/05/2025 14:15:15 | 1746206115787 ms] - Ready! Logged in as Billy#9591
+
+[02/05/2025 14:20:12 | 1746206412051 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:20:25 | 1746206425460 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:24:34 | 1746206674834 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:24:35 | 1746206675510 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:24:44 | 1746206684868 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:24:45 | 1746206685318 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:24:49 | 1746206689857 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:25:09 | 1746206709146 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:25:09 | 1746206709651 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:25:35 | 1746206735856 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:25:38 | 1746206738637 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:26:27 | 1746206787615 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:26:28 | 1746206788127 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:26:35 | 1746206795743 ms] - Successfully refreshed 9 application (/) commands.
+[02/05/2025 14:37:06 | 1746207426521 ms] - Ready! Logged in as Billy#9591
+[02/05/2025 14:37:24 | 1746207444295 ms] - Started refreshing 9 application (/) commands.
+[02/05/2025 14:37:24 | 1746207444914 ms] - Successfully refreshed 9 application (/) commands.

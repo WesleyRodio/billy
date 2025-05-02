@@ -1,6 +1,7 @@
 require("dotenv").config();
 const fs = require("node:fs");
 const path = require("node:path");
+const logger = require("./controller.js")
 
 const { Client, Collection, Events, GatewayIntentBits } = require("discord.js");
 const token = process.env.TOKEN;
@@ -27,11 +28,12 @@ for (const folder of commandFolders) {
 
     if ("data" in command && "execute" in command) {
       client.commands.set(command.data.name, command);
-      console.log(`Loaded command: ${command.data.name}`);
+      console.log(`🔥 Loaded command: ${command.data.name}`)
     } else {
-      console.log(
-        `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`
-      );
+      logger({
+        text: `The command at ${filePath} is missing a required "data" or "execute" property.`,
+        type: "warn"
+      })
     }
   }
 }
@@ -106,12 +108,12 @@ client.on(Events.InteractionCreate, async (interaction) => {
     }
   }
 });
-/* 
+/*
 client.on(Events.InteractionCreate, (interaction) => {
   if (!interaction.isButton()) return;
 
   console.log(interaction.type);
-  
+
 }); */
 
 client.login(token);

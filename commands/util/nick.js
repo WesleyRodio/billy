@@ -45,7 +45,7 @@ module.exports = {
         }
 
         await interaction.reply(
-          `Nickname changed to: ${nickname} of the user <@${target}>.`
+          `Nickname changed to: **${nickname}** of the user <@${target}>.`
         );
       })
       .catch(async (err) => {
