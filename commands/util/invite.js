@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder } = require("discord.js")
 
 module.exports = {
   category: "utility",
@@ -7,7 +7,7 @@ module.exports = {
     .setDescription("The URL of the link to add me to a server."),
   async execute(interaction) {
     await interaction.reply(
-      "Add me to your server :upside_down::heart:!\n**URL**: `https://discord.com/oauth2/authorize?client_id=1207452821562335272`"
-    );
+      "Add me to your server :upside_down::heart:!\n**URL**: `https://discord.com/oauth2/authorize?client_id=1207452821562335272`",
+    )
   },
-};
+}

@@ -1,64 +1,66 @@
-require("dotenv").config();
-const { REST, Routes } = require("discord.js");
-const fs = require("node:fs");
-const path = require("node:path");
-const logger = require("./controller.js");
+require("dotenv").config()
+const fs = require("node:fs")
+const path = require("node:path")
 
-const clientId = process.env.CLIENT_ID;
-const guildId = process.env.GUILD_ID;
-const token = process.env.TOKEN;
+const { REST, Routes } = require("discord.js")
 
-const commands = pushFile("commands");
+const logger = require("./controller.js")
 
-const rest = new REST().setToken(token);
+const clientId = process.env.CLIENT_ID
+const guildId = process.env.GUILD_ID
+const token = process.env.TOKEN
 
-(async () => {
+const commands = pushFile("commands")
+
+const rest = new REST().setToken(token)
+
+;(async () => {
   try {
     logger({
       text: `Started refreshing ${commands.length} application (/) commands.`,
-      type: "info"
+      type: "info",
     })
 
     const normalCommands = await rest.put(
       Routes.applicationCommands(clientId, guildId),
       {
         body: commands,
-      }
-    );
+      },
+    )
 
     logger({
       text: `Successfully refreshed ${normalCommands.length} application (/) commands.`,
-      type: "success"
+      type: "success",
     })
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-})();
+})()
 
 function pushFile(fileName) {
-  const files = [];
-  const foldersPath = path.join(__dirname, fileName);
-  const commandFolders = fs.readdirSync(foldersPath);
+  const files = []
+  const foldersPath = path.join(__dirname, fileName)
+  const commandFolders = fs.readdirSync(foldersPath)
 
   for (const folder of commandFolders) {
-    const commandsPath = path.join(foldersPath, folder);
+    const commandsPath = path.join(foldersPath, folder)
     const commandsFile = fs
       .readdirSync(commandsPath)
-      .filter((file) => file.endsWith(".js"));
+      .filter((file) => file.endsWith(".js"))
 
-    for (file of commandsFile) {
-      const filePath = path.join(commandsPath, file);
-      const command = require(filePath);
+    for (const file of commandsFile) {
+      const filePath = path.join(commandsPath, file)
+      const command = require(filePath)
 
       if ("data" in command && "execute" in command) {
-        files.push(command.data.toJSON());
+        files.push(command.data.toJSON())
       } else {
         console.log(
-          `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`
-        );
+          `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`,
+        )
       }
     }
   }
 
-  return files;
+  return files
 }

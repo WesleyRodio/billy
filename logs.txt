@@ -141,3 +141,140 @@
 [02/05/2025 14:37:06 | 1746207426521 ms] - Ready! Logged in as Billy#9591
 [02/05/2025 14:37:24 | 1746207444295 ms] - Started refreshing 9 application (/) commands.
 [02/05/2025 14:37:24 | 1746207444914 ms] - Successfully refreshed 9 application (/) commands.
+[03/05/2025 00:53:22 | 1746244402835 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 00:53:36 | 1746244416519 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:53:36 | 1746244416970 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:53:53 | 1746244433455 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:53:53 | 1746244433850 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:56:17 | 1746244577881 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:56:18 | 1746244578406 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:56:33 | 1746244593461 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:56:33 | 1746244593858 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:56:38 | 1746244598048 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 00:56:46 | 1746244606230 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:57:18 | 1746244638856 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:57:38 | 1746244658291 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 00:57:52 | 1746244672624 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:57:53 | 1746244673031 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:58:39 | 1746244719708 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 00:58:40 | 1746244720101 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 00:58:53 | 1746244733922 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 00:59:47 | 1746244787759 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:00:35 | 1746244835734 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:04:03 | 1746245043188 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:04:18 | 1746245058564 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 01:04:19 | 1746245059000 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 01:06:51 | 1746245211551 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 01:06:52 | 1746245212073 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 01:14:36 | 1746245676346 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 01:14:36 | 1746245676760 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 01:14:44 | 1746245684786 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:15:16 | 1746245716744 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:27:51 | 1746246471610 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:29:12 | 1746246552403 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:29:35 | 1746246575379 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:30:57 | 1746246657633 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:31:36 | 1746246696767 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:32:40 | 1746246760320 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:48:48 | 1746247728036 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:50:49 | 1746247849201 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:51:17 | 1746247877760 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:51:40 | 1746247900117 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:51:51 | 1746247911995 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 01:51:59 | 1746247919775 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:11:27 | 1746249087689 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:12:41 | 1746249161665 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:13:15 | 1746249195792 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:13:28 | 1746249208450 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:15:45 | 1746249345285 ms] - Started refreshing 10 application (/) commands.
+[03/05/2025 02:15:45 | 1746249345742 ms] - Successfully refreshed 10 application (/) commands.
+[03/05/2025 02:16:11 | 1746249371755 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:20:57 | 1746249657808 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:21:25 | 1746249685945 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:21:52 | 1746249712829 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:21:53 | 1746249713315 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 02:22:03 | 1746249723063 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:22:03 | 1746249723479 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 02:22:15 | 1746249735488 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:22:34 | 1746249754881 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:22:35 | 1746249755343 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 02:22:47 | 1746249767018 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:24:40 | 1746249880457 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:25:09 | 1746249909730 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:25:10 | 1746249910167 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 02:25:14 | 1746249914310 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:25:14 | 1746249914698 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 02:26:39 | 1746249999943 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:27:52 | 1746250072469 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:28:50 | 1746250130499 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:29:07 | 1746250147710 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:29:15 | 1746250155113 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 02:29:15 | 1746250155605 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 02:31:31 | 1746250291987 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:31:58 | 1746250318730 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:32:12 | 1746250332872 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:32:53 | 1746250373554 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:33:32 | 1746250412373 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:34:22 | 1746250462801 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:35:34 | 1746250534272 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:35:53 | 1746250553463 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:36:09 | 1746250569478 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:37:34 | 1746250654789 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:38:27 | 1746250707580 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:38:44 | 1746250724230 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:39:02 | 1746250742111 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:39:22 | 1746250762320 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:40:23 | 1746250823347 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:40:42 | 1746250842048 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:42:20 | 1746250940716 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:43:39 | 1746251019541 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:46:51 | 1746251211306 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:50:51 | 1746251451671 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:52:08 | 1746251528704 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:52:26 | 1746251546154 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:54:57 | 1746251697940 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 02:56:36 | 1746251796016 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:00:05 | 1746252005793 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:01:34 | 1746252094868 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:01:58 | 1746252118572 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:02:12 | 1746252132933 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:02:35 | 1746252155202 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:05:10 | 1746252310105 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:05:29 | 1746252329403 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:07:00 | 1746252420884 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:08:03 | 1746252483916 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:09:40 | 1746252580106 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:09:50 | 1746252590944 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:10:41 | 1746252641071 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 03:11:24 | 1746252684149 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 12:41:46 | 1746286906823 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 12:42:51 | 1746286971984 ms] - Started refreshing 11 application (/) commands.
+[03/05/2025 12:42:52 | 1746286972438 ms] - Successfully refreshed 11 application (/) commands.
+[03/05/2025 12:43:01 | 1746286981179 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 12:45:44 | 1746287144171 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 12:46:04 | 1746287164310 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 12:47:31 | 1746287251360 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 12:59:41 | 1746287981039 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:00:30 | 1746288030268 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:06:30 | 1746288390883 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:07:19 | 1746288439011 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:07:57 | 1746288477104 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:09:19 | 1746288559540 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:14:08 | 1746288848018 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:14:27 | 1746288867531 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 13:18:35 | 1746289115664 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:03:42 | 1746291822937 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:05:30 | 1746291930158 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:09:21 | 1746292161073 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:09:44 | 1746292184474 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:10:14 | 1746292214931 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:10:45 | 1746292245071 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:11:07 | 1746292267983 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:12:38 | 1746292358899 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:13:07 | 1746292387152 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:14:17 | 1746292457446 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:14:43 | 1746292483352 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:15:23 | 1746292523008 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:15:50 | 1746292550081 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:32:33 | 1746293553088 ms] - Ready! Logged in as Billy#9591
+[03/05/2025 14:33:35 | 1746293615829 ms] - Ready! Logged in as Billy#9591
